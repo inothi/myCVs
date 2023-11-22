@@ -5,5 +5,106 @@
 }
 
 body {
-    
+    background-color: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+aside {
+    width: 370px;
+    background: #090604;
+}
+
+.cv-photo {
+    width: 370px;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+.header-secondary {
+    color: #fff;
+    padding: 0 0 10px 0;
+}
+
+.contact-box,
+.tech-skills-box,
+.soft-skills-box,
+.languages-box,
+.hobbies-box {
+    width: 250px;
+    margin: 30px;
+}
+
+.contact-list {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: #90671d;
+}
+
+.bold {
+    font-weight: 700;
+    padding: 0 10px 0 0;
+}
+
+.list-secondary {
+    color: #90671d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    list-style-position: inside;
+}
+
+.list-secondary-items {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main {
+    padding: 50px 150px 50px 50px;
+}
+
+.main-description {
+    margin: 0 0 50px 0;
+}
+
+.job-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0 0 15px 0;
+}
+
+.summary {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.project-box {
+    margin: 0 0 50px 0;
+}
+
+.header-primary {
+    padding: 0 0 15px 0;
+}
+
