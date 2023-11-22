@@ -108,3 +108,11 @@ h1 {
     padding: 0 0 15px 0;
 }
 
+.list-primary {
+    color: #90671d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    list-style-position: inside;
+}
+
