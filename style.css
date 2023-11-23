@@ -7,7 +7,7 @@
 body {
     background-color: #f5f7fa;
     font-family: 'Montserrat', sans-serif;
-    margin: 50px auto 75px auto;
+    margin: 50px auto;
 }
 
 .wrapper {
@@ -194,11 +194,12 @@ h1 {
 
 footer {
     position: relative;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
     width: 1140px;
     background: #fff;
     box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
-    margin: -110px auto auto auto;
+    margin: -110px auto 75px auto;
     z-index: 999;
     padding: 3px;
 }
@@ -216,7 +217,12 @@ footer {
 
 @media (orientation: portrait) {
     body {
-        width: 100%;
+        display: inline-block;
+        text-align: center;
         margin: 0;
+    }
+
+    footer {
+        margin: -110px auto 0 auto;
     }
 }
