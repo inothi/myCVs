@@ -8,6 +8,13 @@ body {
     background-color: #f5f7fa;
     font-family: 'Montserrat', sans-serif;
     margin: 50px auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .wrapper {
@@ -213,6 +220,19 @@ footer {
     font-size: 12px;
     line-height: 16px;
     text-align: center;
+}
+
+.english-button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #90671d;
+}
+
+.english-side {
+
 }
 
 @media (orientation: portrait) {
