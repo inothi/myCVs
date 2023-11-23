@@ -217,6 +217,7 @@ footer {
 
 @media (orientation: portrait) {
     body {
+        width: 100%;
         margin: 0;
     }
 
