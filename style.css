@@ -348,14 +348,3 @@ input:checked ~ .polish-page {
     color: var(--color-highlight);
     content: 'i''n''o''t''h''i''.''t''o''m''e''k''@''g''m''a''i''l''.''c''o''m';
 }
-
-@media (orientation: portrait) {
-    body {
-        margin: 0;
-    }
-
-    footer {
-        min-width: 1140px;
-        margin: -110px 30px 0 30px;
-    }
-}
