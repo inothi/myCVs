@@ -348,3 +348,59 @@ input:checked ~ .polish-page {
     color: var(--color-highlight);
     content: 'i''n''o''t''h''i''.''t''o''m''e''k''@''g''m''a''i''l''.''c''o''m';
 }
+
+@media screen and (max-width: 1152px) {
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        box-shadow: none;
+    }
+    
+    aside {
+        width: 100%;
+        background: #090604;
+    }
+    
+    .cv-photo {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0 0;
+        border-radius: 50%;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+/*
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    height: 1600px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+aside {
+    width: 370px;
+    background: #090604;
+}
+
+.cv-photo {
+    width: 370px;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+*/
