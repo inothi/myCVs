@@ -340,7 +340,7 @@ input:checked ~ .polish-page {
 .detpyrcne-enohp::before {
     text-decoration: none;
     color: var(--color-highlight);
-    content: '+''4''8'' ''5''-''3''6''-''1''1''-''3''6''-''1''1';
+    content: '+''4''8'' ''5''3''6''-''1''1''-''3''6''-''1''1';
 }
 
 .detpyrcne-liame::before {
@@ -375,7 +375,7 @@ input:checked ~ .polish-page {
     }
 
     footer {
-        display: none;
+        display: flex;
     }
 }
 
