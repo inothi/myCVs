@@ -114,6 +114,8 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    text-align: justify;
+
 }
 
 .projects-box {
@@ -121,6 +123,7 @@ h1 {
 }
 
 .header-primary {
+    display: flex;
     font-size: 28px;
     padding: 0 0 15px 0;
 }
@@ -146,6 +149,26 @@ h1 {
     }
 }
 
+.projects-box-header-primary-link {
+    transition: all .5s;
+    background-image: url(../imgs/icon-goTo.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: 28px;
+    color: var(--color-highlight);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+
+    &:hover {
+        transition: all .5s;
+        background-position-y: 0;
+        background-position-x: 0;
+        padding-left: 35px;
+    }
+}
+
 .work-box {
     margin: 0 0 20px 0;
 }
@@ -156,7 +179,7 @@ h1 {
     padding: 0 0 5px 0;
 }
 
-.highlight {
+.highlight, .highlight a {
     color: var(--color-highlight);
     padding: 0 0 0 15px;
 }
