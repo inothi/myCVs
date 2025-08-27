@@ -2,4 +2,4 @@
 
 <h3>Live demo:</h3>
 
-⚡ [CV](https://inothi.github.io/myCVs/index.html) ⚡
+⚡ [Front-end Developer CV](https://inothi.github.io/myCVs/index.html) ⚡
