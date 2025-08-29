@@ -300,7 +300,7 @@ input {
     display: flex;
     position: absolute;
     top: 50px;
-    right: 0;
+    right: calc(100% / 2 - 600px);
     cursor: pointer;
     z-index: 9999;
 }
@@ -379,18 +379,22 @@ input:checked ~ .toggle-button .slider::before {
 }
 
 .english-page {
+    opacity: 1;
     transform: translateX(0);
 }
 
 .polish-page {
+    opacity: 0;
     transform: translateX(-100%);
 }
 
 input:checked ~ .english-page {
+    opacity: 0;
     transform: translateX(-100%);
 }
 
 input:checked ~ .polish-page {
+    opacity: 1;
     transform: translateX(0);
 }
 
